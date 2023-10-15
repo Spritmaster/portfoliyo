@@ -1,0 +1,30 @@
+.nav-links::before {
+  content: ' ';
+  position: absolute;
+  left: -2%;
+  bottom: 0px;
+  display: inline-block;
+  width: 0;
+  height: 3px;
+  background: #fff;
+  transition: all 0.4s;
+}
+
+.nav-links:hover::before {
+    width: 100%;    
+}
+.gradientClr{
+    background: linear-gradient(45deg, #ff8902 50%, 50%,  #000058 100%);
+    box-shadow: rgb(255, 0, 0) 0px 9px 38px, rgba(255, 0, 0, 0.619) 0px 15px 12px;
+}
+.burgerGradient{
+  background: linear-gradient(45deg, #000058 50%, 50%,  #ff8902 100%);
+  }
+.aboutHero{
+  box-shadow: rgb(225, 0, 0) 0px 30px 140px -10px;
+}
+.socialMedia{
+  background: linear-gradient(45deg, #000 50%, 50%,  #fff 100%);
+}
+
+

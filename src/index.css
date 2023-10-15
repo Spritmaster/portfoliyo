@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer {
+    .align-elements{
+        @apply mx-auto max-w-[1400px] px-8
+    }
+    .nav-links{
+      @apply link link-hover font-semibold  text-[20px] relative
+    }
+}
+
+
+

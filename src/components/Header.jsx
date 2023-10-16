@@ -20,7 +20,7 @@ window.addEventListener('resize' , ()=>setBurger('hidden'))
         <nav className='hidden md:flex md:gap-3 lg:gap-5'>
           <a href="#home" className='nav-links text-[#fff] px-3 active:scale-125'>Home</a>
           <a href="#about" className='nav-links text-[#fff] px-3'>About</a>
-          <a href='skills' className='nav-links text-[#fff] px-3'>Skills</a>
+          <a href='#skills' className='nav-links text-[#fff] px-3'>Skills</a>
           <a href="#projects" className='nav-links text-[#fff] px-3'>Projects</a>
         </nav>
 
@@ -30,7 +30,7 @@ window.addEventListener('resize' , ()=>setBurger('hidden'))
             <nav className='flex flex-col items-center '>
               <a href="#home" className='nav-links  text-[#000] px-3 active:scale-125'>Home</a>
               <a href="#about" className='nav-links text-[#000] px-3'>About</a>
-              <a href='skills' className='nav-links text-[#000] px-3'>Skills</a>
+              <a href='#skills' className='nav-links text-[#000] px-3'>Skills</a>
               <a href="#projects" className='nav-links text-[#000] px-3'>Projects</a>
             </nav>
 

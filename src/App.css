@@ -25,6 +25,10 @@
 }
 .socialMedia{
   background: linear-gradient(45deg, #000 50%, 50%,  #fff 100%);
+  border: solid 2px #000;
+}
+.skills-shadow{
+  box-shadow: rgb(0, 100, 206) 0px 20px 30px -10px;
 }
 
 

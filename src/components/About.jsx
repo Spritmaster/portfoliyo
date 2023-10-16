@@ -5,7 +5,7 @@ import najot from "../assets/najotta'lim.jpeg"
 
 const About = () => {
   return (
-    <div  id='about' className='h-screen pt-[72px] p-10 sm:p-20'>
+    <div  id='about' className='h-screen pt-[72px] p-10 sm:p-20 align-elements'>
          
     <h1 className='text-3xl sm:text-5xl lg:text-6xl font-bold text-center z-10  '>About Me</h1>  
     

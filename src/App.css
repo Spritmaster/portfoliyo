@@ -30,5 +30,13 @@
 .skills-shadow{
   box-shadow: rgb(0, 100, 206) 0px 20px 30px -10px;
 }
+.projects-shadow{
+  box-shadow: #ff7300 0px 19px 38px, rgba(239, 155, 0, 0.612) 0px 15px 12px;
+}
+
+.projects__box:hover .projects__box-links{
+  transition: all 0.5s ease;
+  top: 0;
+}
 
 

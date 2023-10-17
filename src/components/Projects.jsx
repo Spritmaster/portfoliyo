@@ -2,6 +2,7 @@ import React from 'react';
 import { Plinks } from '../data/projectsLink';
 import '../App.css'
 import {BsGithub} from 'react-icons/bs'
+import netlify_icon from  '../assets/netlify.png'
 
 import comfyimg from '../assets/comfyimg.png'
 import movies from '../assets/movies.png'
@@ -32,7 +33,7 @@ const Projects = () => {
                <span className='projects__box-links absolute  w-full h-full flex justify-center top-[-100%] items-center  bg-[#a35bf7ae] flex-col gap-3 text-[#fff]'>
                  <a href={gitHub} className='font-bold text-2xl flex items-center gap-3 '><BsGithub className='w-10 h-10'/> GitHub Link</a>
       
-                 <a href={Netlify} className='font-bold text-2xl flex items-center gap-3 '> <img src="./src/assets/netlify.png" alt="" width={40} />  Netlify Link</a>
+                 <a href={Netlify} className='font-bold text-2xl flex items-center gap-3 '> <img src={netlify_icon} alt="" width={40} />  Netlify Link</a>
                </span>
             </div>
 

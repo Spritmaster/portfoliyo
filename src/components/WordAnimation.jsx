@@ -1,15 +1,15 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
-import {BsYoutube ,BsTwitter,BsTelegram ,BsInstagram} from 'react-icons/bs'
+import {BsTelegram ,BsInstagram,BsGithub} from 'react-icons/bs'
 import '../App.css'
 const WordAnimation = () => {
   return (
     <div>
       <span className=' fixed top-[110px] p-3 pl-16 left-[-60px] flex gap-5 flex-col rounded-[40px] bg-[#fff]   z-30 socialMedia'>
-        <BsYoutube className='text-[#ff0000] w-10 h-10  hover:scale-125'/>
-        <BsTwitter className='text-[#1522b0] w-10 h-10  hover:scale-125'/>
-        <BsTelegram className='text-[#2362aa] w-10 h-10 bg-[#fff] rounded-full hover:scale-125'/>
-        <BsInstagram className='text-[#ff8818] w-10 h-10  hover:scale-125'/>
+      <a href="https://github.com/Spritmaster"><BsGithub className='text-[#100e0c] w-10 h-10  hover:scale-125'/></a>
+        <a href='https://t.me/Ergashev48_09'><BsTelegram className='text-[#2362aa] w-10 h-10 bg-[#fff] rounded-full hover:scale-125'/></a>
+        <a href="https://instagram.com/abdurahimovic_1?igshid=NGVhN2U2NjQ0Yg=="><BsInstagram className='text-[#ff8818] w-10 h-10  hover:scale-125'/></a>
+       
       </span>
     <TypeAnimation
              sequence={[

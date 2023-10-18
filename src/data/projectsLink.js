@@ -16,5 +16,11 @@ export const Plinks = [
       title: 'User Generetor',
       gitHub: 'hthttps://github.com/Spritmaster/persons-tablet',
       Netlify: 'https://persontablet.netlify.app/',
+    },
+    {
+      id:3,
+      title:'Our-Menu',
+      gitHub:'https://github.com/Spritmaster/our-menu-react',
+      Netlify:'https://our-menu-by-nodirbek.netlify.app/',
     }
   ];

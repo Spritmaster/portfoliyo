@@ -4,14 +4,14 @@ import '../App.css'
 import {BsGithub} from 'react-icons/bs'
 import netlify_icon from  '../assets/netlify.png'
 
-import comfyimg from '../assets/comfyimg.png'
-import movies from '../assets/movies.png'
-import userGeneretor from '../assets/userGeneretor.png'
+import comfyimg from '../assets/projects-img/comfyimg.png'
+import movies from '../assets/projects-img/movies.png'
+import userGeneretor from '../assets/projects-img/userGeneretor.png'
+import our_menu from '../assets/projects-img/our-menu.png'
 
 const Projects = () => {
-  console.log(Plinks);
 
-  const pictures =[comfyimg,movies ,userGeneretor]
+  const pictures =[comfyimg,movies ,userGeneretor , our_menu]
 
   return (
     <div id='projects' className='h-screen pt-20 p-10 sm:p-20 align-elements '>

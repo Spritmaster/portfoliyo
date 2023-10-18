@@ -22,5 +22,23 @@ export const Plinks = [
       title:'Our-Menu',
       gitHub:'https://github.com/Spritmaster/our-menu-react',
       Netlify:'https://our-menu-by-nodirbek.netlify.app/',
+    },
+    {
+      id:4,
+      title:'To Do list',
+      gitHub:'https://github.com/Spritmaster/to-do-nowdate',
+      Netlify:'https://daily-life-plans.netlify.app/',
+    },
+    {
+      id:5,
+      title:'Weather',
+      gitHub:'https://github.com/Spritmaster/weather',
+      Netlify:'https://weather-api-by-nodirbek.netlify.app/'
+    },
+    {
+      id:6,
+      title:'Crud',
+      gitHub:'https://github.com/Spritmaster/Crud',
+      Netlify:'https://crud-by-nodirbek.netlify.app/'
     }
   ];

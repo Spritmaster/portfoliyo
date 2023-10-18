@@ -8,14 +8,19 @@ import comfyimg from '../assets/projects-img/comfyimg.png'
 import movies from '../assets/projects-img/movies.png'
 import userGeneretor from '../assets/projects-img/userGeneretor.png'
 import our_menu from '../assets/projects-img/our-menu.png'
+import toDoList from '../assets/projects-img/toDoList.png'
+import weather from '../assets/projects-img/weather.png'
+import crud from '../assets/projects-img/crud.png'
+
 
 const Projects = () => {
 
-  const pictures =[comfyimg,movies ,userGeneretor , our_menu]
+  const pictures =[comfyimg,movies ,userGeneretor , our_menu ,toDoList ,weather ,crud]
 
   return (
     <div id='projects' className='h-screen pt-20 p-10 sm:p-20 align-elements '>
-      <h1 className='text-3xl sm:text-5xl lg:text-6xl font-bold text-center z-10 mt-[600px] mb-20 lg:mt-0'>Projects</h1>
+      <h1 className='text-3xl sm:text-5xl lg:text-6xl font-bold text-center z-10 mt-[700px]
+      md:mt-24 mb-20 lg:mt-0'>Projects</h1>
 
      <div className='flex flex-col  items-center sm:grid  lg:grid-cols-2 gap-10  pb-[40px]'>
      {Plinks.map((link) => {

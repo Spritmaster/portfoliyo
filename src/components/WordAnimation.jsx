@@ -1,6 +1,6 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
-import {BsTelegram ,BsInstagram,BsGithub} from 'react-icons/bs'
+import {BsTelegram ,BsInstagram,BsGithub ,BsFillTelephoneOutboundFill} from 'react-icons/bs'
 import '../App.css'
 const WordAnimation = () => {
   return (
@@ -9,6 +9,7 @@ const WordAnimation = () => {
       <a href="https://github.com/Spritmaster"><BsGithub className='text-[#100e0c] w-10 h-10  hover:scale-125'/></a>
         <a href='https://t.me/Ergashev48_09'><BsTelegram className='text-[#2362aa] w-10 h-10 bg-[#fff] rounded-full hover:scale-125'/></a>
         <a href="https://instagram.com/abdurahimovic_1?igshid=NGVhN2U2NjQ0Yg=="><BsInstagram className='text-[#ff8818] w-10 h-10  hover:scale-125'/></a>
+        <a href="tel:+998 94 628 55 12"><BsFillTelephoneOutboundFill className='text-[#4af129] w-9 h-9 hover:scale-125' /></a>
        
       </span>
     <TypeAnimation
